@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --json --outputFile=results.json",
+    "task-1": "npm t -- task-1",
+    "task-2": "npm t -- task-2",
+    "task-3": "npm t -- task-3"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@types/jest": "^27.4.0",
+    "@types/testing-library__jest-dom": "^5.14.2",
+    "acorn": "^8.7.0",
+    "jest": "^27.5.1",
+    "jsdom": "^19.0.0",
+    "rewire": "^6.0.0"
+  },
+  "type": "module"
+}
